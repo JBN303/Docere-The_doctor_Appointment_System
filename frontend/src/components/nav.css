@@ -1,0 +1,33 @@
+
+.dropbtn {
+    background-color: transparent;
+    color: #ffffff;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    
+    min-width: 130px;
+    box-shadow: 0px 8px 16px 0px rgba(57, 57, 57, 0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the Dropdown */
+  .dropdown-content a {
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
